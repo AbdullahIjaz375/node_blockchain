@@ -1,0 +1,29 @@
+{
+  "name": "my-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node ./app",
+    "dev": "nodemon ./app",
+    "dev-test": "node dev-test.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "Abdullah Ijaz",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "crypto-js": "^4.2.0",
+    "elliptic": "^6.5.4",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1",
+    "ws": "^8.16.0"
+  }
+}
