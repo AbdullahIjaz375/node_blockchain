@@ -1,29 +1,30 @@
 {
-  "name": "my-blockchain",
+  "name": "sf-chain",
   "version": "1.0.0",
-  "description": "",
+  "description": "The official code for the *Build a Blockchain and Cryptocurrency from Scratch* course on Udemy by David Katz.",
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test",
     "start": "node ./app",
-    "dev": "nodemon ./app",
-    "dev-test": "node dev-test.js"
+    "dev": "nodemon ./app"
   },
   "jest": {
     "testEnvironment": "node"
   },
-  "author": "Abdullah Ijaz",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0",
-    "nodemon": "^3.0.3"
+    "jest": "^22.1.4",
+    "nodemon": "^1.19.4"
   },
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "crypto-js": "^4.2.0",
-    "elliptic": "^6.5.4",
-    "express": "^4.18.2",
-    "uuid": "^9.0.1",
-    "ws": "^8.16.0"
+    "body-parser": "^1.18.2",
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.4.0",
+    "express": "^4.16.2",
+    "uuid": "^3.2.1",
+    "ws": "^4.0.0"
   }
 }

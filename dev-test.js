@@ -1,4 +1,3 @@
-const Wallet = require('./wallet')
+const Wallet = require('./wallet');
 const wallet = new Wallet();
-
-console.log(wallet.toString())
+console.log(wallet.toString());
